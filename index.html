@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>LMS Page</title>
+    <style>
+        header {
+            height: 100px;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        #topPart img, #centerPart img, #bottomPart img {
+            width: 100%;
+            position: top;
+        }
+
+        #topPart img {
+            margin-top: 10px;
+        }
+
+        #lmsLogo img {
+            height: 100px;
+            position: top;
+        }
+
+        #lmsImg img {
+            margin-top: 55px;
+            width: 100%;
+            height: 30px;
+            margin-left: 20px;
+        }
+
+        #vuLogo img {
+            height: 90px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        #topPart, #centerPart, #bottomPart {
+            background-repeat: no-repeat;
+            width: 800px;
+            margin: 0 auto;
+            background-position: top;
+        }
+
+        #loginForm {
+            padding-top: 10px;
+            background-color: red;
+            margin: 0 auto;
+            height: 800px;
+            background: url('page_bg.jpg');
+            background-repeat: repeat-x;
+            background-size: 500px 800px;
+        }
+
+        #centerPart {
+            height: 340px;
+            background-color: red;
+            background: url('login_bg.jpg') no-repeat;
+            background-size: 100%;
+        }
+
+        #topPart {
+            height: 178px;
+            background-color: red;
+            background: url('lms_bg.jpg') no-repeat;
+            background-size: 100%;
+        }
+
+        div {
+        }
+
+            div.inline {
+                float: left;
+            }
+
+        .clearBoth {
+            clear: right;
+        }
+
+        .form-text {
+            font-weight: bold;
+            color: #013974;
+            font-size: 22px;
+        }
+
+        td {
+            padding-bottom: .5em;
+        }
+
+        button {
+            border: none;
+            height: 100px;
+            width: 100px;
+            background: url('vu_btn_signin.png') no-repeat top left;
+            padding: 2px 8px;
+        }
+
+        tr {
+            white-space: nowrap;
+        }
+
+        input, textarea {
+            background-color: #ededed;
+        }
+
+        #topPart {
+            font-weight: bold;
+            color: #8F0F10;
+            font-size: 18px;
+        }
+
+        a:link, a:visited, a:hover {
+            color: #8F0F10;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #8F0F10;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            padding-bottom: 7px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="lmsLogo" style="float:left; height:100%; ">
+            <img src="lms_logo.jpg" align="left">
+        </div>
+        <div id="lmsImg" style="width:600px;float:left;">
+            <img src="vu_title.png" height="30px" align="center">
+        </div>
+        <div id="vuLogo">
+            <img src="vu_logo.png" align="right">
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="loginForm" style="width:1340px;">
+
+            <div id="topPart">
+                <div style="padding-left:130px; padding-top:40px;">
+                    <ul>
+                        <li><a href="">Notice Board <span style="color:#003871;"> [2 Latest NEWS]</span></a></li>
+                        <li><a href="">Important Links/Notifications</a></li>
+                        <li><a href="">Student Hand Book</a></li>
+                        <li><a href="">VU Important Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="centerPart">
+                <div style="padding:130px;">
+                    <table class="form-text">
+                        <tr>
+                            <td>Student ID &nbsp;</td>
+                            <td><input type="text"></td>
+                            <td style="width:150px;" rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;<img style="vertical-align: bottom;" width="150px" height="90px" src="vu_btn_signin.png"></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="bottomPart">
+                <img src="leaf_bg.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
